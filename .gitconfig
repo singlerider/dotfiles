@@ -1,0 +1,20 @@
+[pull]
+	rebase = true
+[alias]
+	s = status -s
+	lg = log --oneline --decorate --all --graph
+	stash-unapply = !git stash show -p | git apply -R
+	d = diff --stat
+[push]
+	default = simple
+[credential]
+	helper = osxkeychain
+[user]
+	name = shane
+	email = haroboy876@gmail.com
+	signingkey = 5BE8D2BA7B532B75  # get from `gpg --list-keys  --with-colons`
+[commit]
+    gpgSign = true
+[gpg]
+    program = gpg2
+
