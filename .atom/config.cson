@@ -1,0 +1,77 @@
+"*":
+  "atom-beautify":
+    cs:
+      configPath: "~/.uncrustify.cfg"
+    general:
+      _analyticsUserId: "41f5fdb8-c636-4b5b-bb77-544f7299e879"
+    html:
+      default_beautifier: "Pretty Diff"
+      end_with_newline: true
+      indent_inner_html: true
+    js:
+      indent_size: 2
+    json:
+      indent_size: 2
+      keep_array_indentation: true
+    less:
+      indent_size: 2
+    php: {}
+  "atom-material-ui":
+    colors: {}
+    tabs:
+      compactTabs: true
+      tintedTabBar: true
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+  "autocomplete-python":
+    useKite: false
+  core:
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".pioenvs"
+      ".piolibdeps"
+      ".clang_complete"
+      ".gcc-flags.json"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontSize: 11
+    showIndentGuide: true
+    softTabs: false
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "b2340987-3309-667d-45c0-94b2a3ac84d0"
+  linter:
+    errorPanelHeight: 70
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+    lintInlineJavaScript: true
+  minimap:
+    displayMinimapOnLeft: true
+  "omnisharp-atom":
+    codeLens: false
+    enhancedHighlighting19: false
+  "platformio-ide":
+    showHomeScreen: false
+  "platformio-ide-terminal":
+    core:
+      autoRunCommand: "export PATH=/Volumes/share/shane/.atom/packages/platformio-ide/penv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+  "tool-bar":
+    position: "Left"
+    visible: false
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
