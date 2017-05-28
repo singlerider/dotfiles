@@ -1,8 +1,8 @@
 [alias]
 	s = status -s
 	lg = log --oneline --decorate --all --graph
-	stash-unapply = !git stash show -p | git apply -R
 	d = diff --stat
+	tags = for-each-ref --sort=taggerdate --format '%(refname) %(taggerdate)' refs/tags
 [push]
 	default = simple
 [credential]
