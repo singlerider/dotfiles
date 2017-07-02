@@ -12,7 +12,13 @@
 	email = haroboy876@gmail.com
 	signingkey = 5BE8D2BA7B532B75  # get from `gpg --list-keys  --with-colons`
 [commit]
-    gpgSign = true
+	gpgSign = true
 [gpg]
-    program = gpg2
+	program = gpg2
+[diff "gpg"]
+	textconv = gpg2 --no-tty --decrypt
+	cachetextconv = false
+[diff "ansible-vault"]
+	textconv = ansible-vault view
+	cachetextconv = false
 
