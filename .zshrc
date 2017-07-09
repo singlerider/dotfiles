@@ -84,3 +84,5 @@ PATH="$PATH:$HOME/anaconda/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export SSH_AUTH_SOCK=$HOME/.gnupg/S.gpg-agent.ssh
