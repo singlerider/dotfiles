@@ -10,7 +10,7 @@
 [user]
 	name = shane
 	email = haroboy876@gmail.com
-	signingkey = 5BE8D2BA7B532B75  # get from `gpg --list-keys  --with-colons`
+	signingkey = 94D41DFC6D43CE9C  # get from `gpg --list-keys  --with-colons`
 [commit]
 	gpgSign = true
 [gpg]
