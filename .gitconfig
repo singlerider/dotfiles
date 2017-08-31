@@ -21,4 +21,6 @@
 [diff "ansible-vault"]
 	textconv = ansible-vault view
 	cachetextconv = false
+[core]
+	editor = vim
 
