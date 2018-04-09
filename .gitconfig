@@ -3,6 +3,7 @@
 	lg = log --oneline --decorate --all --graph
 	d = diff --stat
 	tags = for-each-ref --sort=taggerdate --format '%(refname) %(taggerdate)' refs/tags
+	diff = diff --color-moved
 [push]
 	default = simple
 [credential]
@@ -23,4 +24,5 @@
 	cachetextconv = false
 [core]
 	editor = vim
-
+[diff]
+	colorMoved = plain
