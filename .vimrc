@@ -1,8 +1,6 @@
 map <Esc>[B <Down>
 " Make Vim more useful
 set nocompatible
-" Use the OS clipboard by default (on versions compiled with `+clipboard`)
-set clipboard=unnamedplus
 " Enhance command-line completion
 set wildmenu
 " Allow cursor keys in insert mode
@@ -50,7 +48,7 @@ set laststatus=2
 "set modeline
 "set modelines=4
 " Enable mouse in all modes
-set mouse=a
+set mouse=r
 " Disable error bells
 set noerrorbells
 " Don’t reset cursor to start of line when moving around.
