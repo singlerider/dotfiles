@@ -21,6 +21,8 @@
 	signingkey = 94D41DFC6D43CE9C  # get from `gpg --list-keys  --with-colons`
 [commit]
 	gpgSign = true
+[merge]
+	gpgSign = true
 [gpg]
 	program = gpg
 [diff "gpg"]
