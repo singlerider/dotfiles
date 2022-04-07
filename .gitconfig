@@ -13,12 +13,10 @@
 	squash = "!git update && git temp && git merge-squash && git replace && git force-update"
 [push]
 	default = simple
-[credential]
-	helper = osxkeychain
 [user]
 	name = shane
 	email = contact@shane.gg
-	signingkey = 94D41DFC6D43CE9C  # get from `gpg --list-keys  --with-colons`
+	signingkey = D9DF703B83B9A9B5  # get from `gpg --list-keys  --with-colons`
 [commit]
 	gpgSign = true
 [merge]
@@ -26,7 +24,7 @@
 [gpg]
 	program = gpg
 [diff "gpg"]
-	textconv = gpg2 --no-tty --decrypt
+	textconv = gpg --no-tty --decrypt
 	cachetextconv = false
 [diff "ansible-vault"]
 	textconv = ansible-vault view
@@ -35,3 +33,8 @@
 	editor = vim
 [diff]
 	colorMoved = plain
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
