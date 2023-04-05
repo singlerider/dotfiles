@@ -24,6 +24,10 @@ set use_from=yes
 set envelope_from=yes
 set header_cache = ~/.cache/mutt
 
+# view html (requires w3m to be installed)
+auto_view text/html
+alternative_order text/plain text/enriched text/html
+
 #scroll inside the message rather than the index
 bind pager <up> previous-line
 bind pager <down> next-line
