@@ -1,0 +1,46 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette
+{
+  "assistant": {
+    "default_model": {
+      "provider": "ollama",
+      "model": "llama3.2:3b"
+    },
+    "version": "2"
+  },
+  "features": {
+    "inline_completion_provider": "none"
+  },
+  "soft_wrap": "editor_width",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Solarized Dark"
+  },
+  "tabs": {
+    "file_icons": true
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 60000
+    }
+  },
+  "auto_update": true,
+  "git_status": true,
+  "ensure_final_newline_on_save": true,
+  "format_on_save": "on",
+  "show_whitespaces": "all",
+  "remove_trailing_whitespace_on_save": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  }
+}
