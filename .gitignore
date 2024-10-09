@@ -9,4 +9,16 @@
 .config/pulse/
 .config/tilting-assistant/
 .config/gnome-initial-setup-done
+wlogout/
+swaync/
+transmission/
+systemd/
+libreoffice/
+Kvantum/
+Thunar/
+btop-backup-*
+ags/
+ibus/
+cava/
+xfce4/
 
