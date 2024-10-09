@@ -21,4 +21,7 @@ ags/
 ibus/
 cava/
 xfce4/
+cfg_backups/
+chromium/
+go/telemetry/
 

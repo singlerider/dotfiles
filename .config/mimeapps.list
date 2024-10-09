@@ -7,5 +7,5 @@ x-scheme-handler/about=chromium_chromium.desktop
 x-scheme-handler/unknown=chromium_chromium.desktop
 x-scheme-handler/etcher=balenaEtcher.desktop
 x-scheme-handler/mailto=chromium_chromium.desktop
-inode/directory=thunar.desktop
+inode/directory=org.kde.dolphin.desktop
 application/x-wayland-gnome-saved-search=thunar.desktop
